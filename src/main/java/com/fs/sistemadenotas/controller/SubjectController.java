@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/gradelify/v1/")
-@CrossOrigin(value = "http://localhost:5173")
+@CrossOrigin(value = "https://gradelify-frontend-react-app.vercel.app/")
 @RequiredArgsConstructor
 public class SubjectController {
 
